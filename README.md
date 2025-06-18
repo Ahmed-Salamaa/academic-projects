@@ -55,6 +55,3 @@ This repository serves as:
 
 This repository is intended for educational purposes. Please do not plagiarize—use the code for learning, reference, or inspiration.
 
----
-
-Let me know if you want to auto-generate a list of all folders as links inside the README!
