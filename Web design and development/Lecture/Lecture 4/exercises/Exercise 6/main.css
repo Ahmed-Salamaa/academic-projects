@@ -1,0 +1,14 @@
+
+.text {
+  margin: 100px auto;
+
+  max-width: 600px;
+  line-height: 1.6;
+  font-size: 20px;
+}
+.text::selection {
+  background: #674899;
+  color: white;
+
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.40);
+}

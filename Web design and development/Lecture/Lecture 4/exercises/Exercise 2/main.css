@@ -1,0 +1,30 @@
+.img-container {
+    position: relative;
+    width: 75%;
+    margin: 30px auto;
+    overflow: hidden;
+    border: 1px solid #000;
+  }
+
+  .img-container img {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+  .overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    opacity: 0;
+    transition: opacity 0.35s ease;
+  }
+
+  .img-container:hover .overlay {
+    opacity: 1;
+  }

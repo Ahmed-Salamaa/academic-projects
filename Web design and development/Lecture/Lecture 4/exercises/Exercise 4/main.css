@@ -1,0 +1,53 @@
+nav {
+    background-color: #f2f2f2;
+
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 27%;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    padding: 5px 0;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+nav ul li a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0%;
+    height: 2px;
+    background: #32398f;
+    transition: width 0.3s ease;
+}
+
+nav ul li a:hover {
+    transform: translateY(-3px); 
+    color: #32398f;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+nav ul li a:focus {
+    transform: scale(1.1); 
+    color: #43b23d;
+    outline: none;
+}
+
+nav ul li a:focus::after {
+    width: 100%;
+    background: #43b23d;
+}

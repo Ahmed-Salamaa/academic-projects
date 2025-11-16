@@ -1,0 +1,26 @@
+
+div.cl {
+    perspective: 800px; 
+    width: 300px;
+    margin: 50px auto;
+}
+
+.box {
+    width: 300px;
+    height: 200px;
+    background: linear-gradient(135deg, #514caf, #632e7d);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 12px;
+    transition: transform 0.8s ease;
+    transform-style: preserve-3d;
+}
+
+.box:hover {
+    transform: rotateY(25deg) rotateX(10deg) scale(1.05);
+    background: linear-gradient(135deg, #4c8baf, #632e7d);
+}
