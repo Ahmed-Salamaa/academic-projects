@@ -1,8 +1,18 @@
----
+# 📁 Image Processing Application
 
-# 🖼️ Image Processing Application
+This folder contains an image processing application implemented in C++. It includes the main source file and necessary libraries for image handling.
 
-This is a command-line based **Image Processing Application** built with C++ using the `stb_image` and `stb_image_write` libraries. It supports importing/exporting images and performing a wide range of grayscale and dithering operations, along with image transitions.
+## 🚀 Getting Started
+
+To compile and run the image processing application:
+
+1. Navigate to the `Image Processing Application` directory.
+2. Compile the source code:
+   
+   ```bash
+   g++ image.cpp libraries/*.h -o image_processor
+   ./image_processor
+   ```
 
 ---
 
@@ -99,5 +109,3 @@ CLI-based image editing tool built for educational and experimental use.
 ## 📄 License
 
 This project is released for educational and non-commercial use only. Please do not use this code in plagiarism or academic misconduct.
-
----
